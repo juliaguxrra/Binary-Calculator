@@ -13,8 +13,8 @@ fi
 run_test () {
     # Parameters
     FORMULA=$1 # Formula to run
-    EXPECTED_A=`echo -e $2` # Expected output after completing part A
-    EXPECTED_B=`echo -e $3` # Expected output after completing part B
+    EXPECTED_A=`echo -e $2` 
+    EXPECTED_B=`echo -e $3` 
 
     echo "*****************************************************"
     printf "%-40s%s" "$FORMULA"
